@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-06T23:33:32Z" name="Default suite" finished-at="2024-03-06T23:35:02Z" duration-ms="90433">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@7c8c9a05]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-03-06T23:33:32Z" name="Default test" finished-at="2024-03-06T23:35:02Z" duration-ms="90433">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@7c8c9a05]" started-at="2024-03-06T18:33:32Z" name="setUpClass" finished-at="2024-03-06T18:33:32Z" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74174a23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@7c8c9a05]" started-at="2024-03-06T18:33:32Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-06T18:34:16Z" duration-ms="43669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["perform a google job search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["google Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@7c8c9a05]" started-at="2024-03-06T18:34:16Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-06T18:35:02Z" duration-ms="46430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["perform a google job search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["google Search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@7c8c9a05]" started-at="2024-03-06T18:35:02Z" name="tearDownClass" finished-at="2024-03-06T18:35:02Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
